@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cellular Automata Simulator</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="main-app">
+
+        <div class="title">
+            <h1>1D Cellular Automata Simulator</h1>
+        </div>
+
+        <div class="control-bar">
+            <label for="RuleNumber">Rule Number (0-255):</label>
+            <input type="text" id = 'ruleNum'>
+
+            <label for="GenSize">Size of Each Generation:</label>
+            <input type="text" id = 'genSize'>
+
+
+            <label for="GenCount">Count of Generations:</label>
+            <input type="text" id = 'genCount'>
+
+            <button class="submit-btn">Get the Cellular Automata</button>
+        </div>
+
+        <div class="cellular-applet">
+            <div class="text"></div>
+            <div class="mainDrawing"></div>
+        </div>
+
+    </div>
+</body>
+
+<script src="./index.js"></script>
+</html>

@@ -1,0 +1,38 @@
+body{
+    background-color: turquoise;
+}
+
+.black{
+    height:5px;
+    width:5px;
+    background-color: black;
+}
+
+.white{
+    height:5px;
+    width:5px;
+    background-color: whitesmoke;
+}
+
+
+.row{
+    display: flex;
+}
+
+.control-bar{
+    margin-bottom: 20px;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main-app{
+    text-align: center;
+}
+
+.cellular-applet{
+    margin: auto;
+    width: 57%;
+}
